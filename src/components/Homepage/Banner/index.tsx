@@ -17,7 +17,7 @@ const Banner = () => {
             </h2>
             <p className="text-[15px] mt-2">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              industry. Lorem Ipsum has been the industry&apos;s
             </p>
             <Link
               href="/sign-up"
@@ -78,7 +78,7 @@ const Banner = () => {
                   female <span className="text-[11px]">|</span> Bohol,P
                 </h4>
                 <p className="mt-2 customP text-[13px] text-[#5a5a5a]">
-                  Hello,🤗 I'm looking for a companion. Someone with a big
+                  Hello,🤗 I&apos;m looking for a companion. Someone with a big
                   personality but able to give me plenty of attention too
                 </p>
               </div>

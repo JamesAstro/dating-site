@@ -125,7 +125,7 @@ const Signin: NextPage = () => {
                 Login
               </Button>
               <p className="text-[15px] text-[#707070] mt-2">
-                Don't have an account?
+                Don&apos;t have an account?
               </p>
               <Link
                 href="/sign-up"
