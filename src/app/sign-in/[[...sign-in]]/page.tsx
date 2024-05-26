@@ -101,6 +101,7 @@ const Signin: NextPage = () => {
               <Input
                 type="password"
                 label="Password"
+                isPassword={true}
                 value={password}
                 onChange={setPassword}
               />
