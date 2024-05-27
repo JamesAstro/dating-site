@@ -12,6 +12,7 @@ import Input from "@/components/Input";
 import Button from "@/components/Button";
 import { useSignIn } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 
 const Signin: NextPage = () => {
   const { isLoaded, signIn, setActive } = useSignIn();
@@ -74,7 +75,12 @@ const Signin: NextPage = () => {
         </Link>
 
         <div className="flex text-[0] justify-between w-[790px]">
-          <div className="w-[46%] rounded-l-[8px] overflow-hidden ">
+          <motion.div
+            initial={{ x: -1000, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+            className="w-[46%] rounded-l-[8px] overflow-hidden "
+          >
             <Image
               src="/images/couple.jpg"
               alt="couple"
@@ -82,8 +88,11 @@ const Signin: NextPage = () => {
               height={1000}
               className="w-full h-full object-cover"
             />
-          </div>
-          <form
+          </motion.div>
+          <motion.form
+            initial={{ x: 1000, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
             onSubmit={handleSubmit}
             className="w-[54%] px-5 py-6 pb-7 bg-secondary rounded-r-[8px]  shadow-[1px_1px_6px_rgba(0,0,0,0.18)]"
           >
@@ -135,7 +144,7 @@ const Signin: NextPage = () => {
                 Signup and become a member now
               </Link>
             </div>
-          </form>
+          </motion.form>
         </div>
       </Wrapper>
     </div>
