@@ -217,8 +217,8 @@ const SecondStep = (props: SecondStepProps) => {
           <Image
             src="/images/couple.jpg"
             alt="couple"
-            width={1000}
-            height={1000}
+            width={363}
+            height={415}
             className="w-full h-full object-cover"
           />
         </div>

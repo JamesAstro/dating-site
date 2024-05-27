@@ -60,8 +60,8 @@ const Signup: NextPage = () => {
           <Image
             src="/logo.png"
             alt="Filipina Dream Girl logo"
-            width={1000}
-            height={1000}
+            width={280}
+            height={83}
             className="w-full h-full"
           />
         </Link>
