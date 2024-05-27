@@ -252,3 +252,7 @@ input:-webkit-autofill:active {
   background: linear-gradient(167deg, #e17c9d 0, #ffffff 100%);
   background-color: linear-gradient(167deg, #e17c9d 0, #ffffff 100%);
 }
+
+input {
+  color: #353535 !important;
+}
