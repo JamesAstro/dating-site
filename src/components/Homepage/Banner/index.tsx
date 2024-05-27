@@ -12,11 +12,11 @@ const Banner = () => {
     <div className="banner bg-[#fcfcfc] pt-[125px] h-[720px] pb-[30px] w-full">
       <Wrapper>
         <div className="flex justify-between w-full ">
-          <div className="w-[450px] mt-[60px]">
+          <div className="w-[450px] mt-[60px] text-[#505050]">
             <h2 className="text-[#1f1f1f] font-[700] cabin  text-[40px]">
               Want to Find your Filipina Dream Girl?
             </h2>
-            <p className="text-[15px] mt-2">
+            <p className="text-[15px] mt-2 ">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s
             </p>
